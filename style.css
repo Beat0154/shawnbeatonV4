@@ -368,7 +368,7 @@ svg,object{
     .submitbtn{
     margin: 0 auto 3rem;
     display: block;
-    width: 60% !important;
+    width: 90% !important;
     height: 3rem;
     color: white;
     font-family: var(--font);
