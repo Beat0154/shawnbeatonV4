@@ -2,13 +2,10 @@
 :root{
     --font: Montserrat, sans-serif;
 }
-
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
 }
-
-
 html, body{
     padding: 0;
     margin: 0;
@@ -72,10 +69,6 @@ a{
         flex-direction: column;
         position: relative;
     }
-    .navup{
-    margin-top: 0px;
-    transition-duration: 0s;
-    }
     .maintitle{
         text-align: center;
         margin: 1rem 0rem;
@@ -90,6 +83,10 @@ a{
         max-width: 400px;
         padding: 0;
         visibility: hidden;
+    }
+    .navup{
+    margin-top: 0px;
+    transition-duration: 0s;
     }
 }
 .navimg:hover, a:hover, .langimg:hover{
@@ -129,12 +126,9 @@ a{
 }
 .header{
     background-repeat: no-repeat;
-/*    background-size: 1500px;*/
     height: 750px;
-/*    min-width: 1200px;*/
     width: 100%;
 }
-
 svg,object{
     position: absolute;
     z-index: 0;
@@ -147,7 +141,6 @@ svg,object{
 .svg{
     min-width: 1500px;
     padding: auto;
-    
 }
 .svg2{
     position: inherit;
@@ -190,9 +183,7 @@ svg,object{
 #skateboard{
     top: 250px;
     z-index: -100;
-/*    left: 0px;*/
 }
-
 .websites{
     background-color: #002038;
     margin-top: -10px;
@@ -212,7 +203,6 @@ svg,object{
     margin: 1rem;
     padding: 1rem;
     list-style: none;
-/*    background-color: hsla(0, 0%, 99%, 0.2);*/
 }
 .webli:hover, .webli:active{
     background-color: hsla(0, 0%, 80%, 0.2);
@@ -222,7 +212,7 @@ svg,object{
     vertical-align: middle;
 }
 .webspan{
-    
+    font-weight:500;
 }
 @media only screen and (max-width: 892px){
     .webul{
@@ -236,10 +226,7 @@ svg,object{
         margin: 0 auto !important;
     }
 }
-
-
 .portfolio{
-/*    background-color: white;*/
     width: 55%;
     margin: auto;
 }
@@ -380,15 +367,13 @@ svg,object{
     font-size: 1.5rem !important;
     }
     #skateboard{
-        transform: scale(0.5) !important;
+        transform: scale(0.3) !important;
     }
 }
-
 form{
     margin: 3rem auto 0rem;
     padding: 1rem;
     font-family: var(--font);
-/*    width: 700px;*/
     height: auto;
     background-color: #002038;
 }
@@ -399,7 +384,6 @@ form{
     position: relative;
 }
 label{
-/*    padding-left: 7.8rem;*/
     display: block;
     color: white;
     text-shadow: 1.5px 1.5px 0px black;
@@ -446,7 +430,6 @@ input, textarea{
     margin: 0 auto;
     padding: 0.7rem;
     background-color: transparent;
-/*    background-color: hsla(200, 80%, 10%, 1);*/
     border: 2px solid white;
 }
 textarea{
@@ -465,8 +448,6 @@ input::placeholder, textarea::placeholder{
 .labels{
     display: flex;
 }
-
-
 footer{
     background: hsla(0, 0%, 80%, 1);
     box-shadow: inset 0px 3px 10px black;
@@ -488,7 +469,6 @@ footer{
     justify-content: space-between;
     padding-bottom: 1rem;
     border-bottom: 3px solid #002038;
-    
 }
 .footerimg{
     width: 40px;
@@ -528,7 +508,6 @@ footer{
     padding: 0.5rem;
     margin: 0;
     color: white;
-/*    background-color: #66a9ff;*/
     border-color: #002038;
     border-radius: 0.75rem;
 }

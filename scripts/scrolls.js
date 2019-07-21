@@ -44,16 +44,17 @@ window.onscroll = function() {
     parallax('padding-left','hockeyplayer', 0, 0.2);
     parallax('top','puck', 20, -0.15);
     parallax('padding-left','puck',  0, 0.2);
-    parallax('padding-left','skateboard',-0,0.5);
     parallax('width','form',400,0.2);
     if(screen.width > 792){
     parallax('width','span1',500,0.2);
     parallax('width','span2',500,0.2);
-    parallax('width','span3',500,0.2);
+    parallax('width','span3',500,0.2);  
+    parallax('padding-left','skateboard',0,0.5);
     }
     else{
     parallax('width','span1',240,0);
     parallax('width','span2',240,0);
     parallax('width','span3',240,0);
+    parallax('padding-right','skateboard',-540,0.5);
     }
 }
