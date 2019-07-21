@@ -150,6 +150,10 @@ svg,object{
     padding: auto;
     
 }
+.svg2{
+    position: inherit;
+    min-width: 600px !important;
+}
 #hockeyplayer{
     top: 100px;
     padding-left: 0px;
@@ -183,6 +187,11 @@ svg,object{
 #front{
     top: 0px;
     z-index: 15;
+}
+#skateboard{
+    top: 250px;
+    z-index: -100;
+/*    left: 0px;*/
 }
 
 .websites{
@@ -255,6 +264,7 @@ svg,object{
     max-width: 800px;
     height: 600px;
     margin: 0 auto;
+    z-index: 100;
 }
 
 @media only screen and (min-width: 792px){
@@ -286,6 +296,8 @@ svg,object{
     display: block;
     text-align: center;
     background-color: transparent;
+    z-index: 500;
+/*    position: absolute;*/
 }
 .icon{
     width: 20%;
@@ -294,6 +306,7 @@ svg,object{
 }
 #text1, #text2, #text3, #text4{
     display: none;
+    z-index: 1000;
     color: white;
     font-family: var(--font);
     border-radius: 0rem;
