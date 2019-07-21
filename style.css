@@ -107,15 +107,14 @@ a{
     border-radius: 3rem;
     display: block;
     padding: 1rem 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 4px black;
     background-color: transparent;
     z-index: 99;
     position: relative;
-/*    left: 55%;*/
-/*    margin-left: -170px;*/
+    font-weight: 900;
     top: 400px;
     margin-top: -300px;
     transition-duration: 200ms;
@@ -231,6 +230,10 @@ svg,object{
     }
     .maintitle{
         margin-top: 250px;
+    }
+    .portitle{
+        font-size: 1.5rem !important;
+        margin: 0 auto !important;
     }
 }
 
