@@ -374,7 +374,10 @@ svg,object{
     font-family: var(--font);
     font-weight: 700;
     border-radius: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem !important;
+    }
+    #skateboard{
+        transform: scale(0.5) !important;
     }
 }
 
@@ -466,12 +469,13 @@ footer{
     box-shadow: inset 0px 3px 10px black;
     font-family: sarabun;
     height: auto;
+    max-width: 100% !important;
     overflow: auto;
     height: 200px;
 }
 .footercontent{
     width: 35%;
-    min-width: 400px;
+    min-width: 300px;
     margin: 0 auto;
 }
 .footericons{
