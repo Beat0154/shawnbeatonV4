@@ -247,12 +247,13 @@ svg,object{
 .langimg{
     max-width: 200px;
     width: 100%;
-    margin: 0rem 1rem;
 }
-
+.language{
+    
+}
 .content{
     max-width: 800px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
     z-index: 100;
 }
@@ -279,7 +280,6 @@ svg,object{
     z-index: 99;
     position: relative;
 }
-
 
 .skills{
     margin: 3rem auto 0rem;
@@ -334,8 +334,11 @@ svg,object{
 }
 
 @media only screen and (max-width: 800px){
+    .text{
+        height: 500px;
+    }
     form{
-        width: 70% !important;
+        width: 85% !important;
         margin: 1rem auto !important;
         padding: 0rem !important;
     
