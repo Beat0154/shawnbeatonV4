@@ -8,6 +8,13 @@ function validate(idspan,idinput) {
     }
     return valid;
 }
+function validateAll(){
+    var valid = 1;
+    valid &= validate('span1','input1');
+    valid &= validate('span2','input2'); 
+    valid &= validate('span3','input3');
+    return valid == 1;
+}
 
 function remove(id) {
  var x = document.getElementById(id);
