@@ -457,8 +457,8 @@ input::placeholder, textarea::placeholder{
     display: flex;
 }
 footer{
-    background: hsla(0, 0%, 80%, 1);
-    box-shadow: inset 0px 3px 10px black;
+    background: hsla(220, 0%, 80%, 1);
+/*    box-shadow: inset 0px 3px 10px black;*/
     font-family: sarabun;
     height: auto;
     max-width: 100% !important;
@@ -476,13 +476,13 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
-    border-bottom: 3px solid #002038;
+    border-bottom: 2px solid #002038;
 }
 .footerimg{
     width: 40px;
     padding: 0.5rem;
     height: 40px; 
-    border: 3px solid #002038;
+/*    border: 3px solid #002038;*/
     border-radius: 20%;
 }
 .footerp{

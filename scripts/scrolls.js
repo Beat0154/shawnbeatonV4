@@ -38,7 +38,7 @@ window.onscroll = function() {
     parallax('padding-left','cloudfront', 0, 0.75);
     parallax('top','mountains', 0, 0.5);
     parallax('top','mid', 0, 0.10);
-//    parallax('top','foreground', 150, -0.1);
+    parallax('top','front', 0, -0.3);
     parallax('top','findmorebtn', 400, 0.15);
     parallax('top','hockeyplayer', 100, -0.05);
     parallax('padding-left','hockeyplayer', 0, 0.2);
