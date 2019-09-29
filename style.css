@@ -90,6 +90,9 @@ a{
     margin-top: 0px;
     transition-duration: 0s;
     }
+    .error{
+    margin-left: 80px !important;
+    }
 }
 .navimg:hover, a:hover, .langimg:hover{
     filter: opacity(0.5);
@@ -422,8 +425,7 @@ label{
     line-height: 100px;
 }
 .error{
-    right: 0px !important;
-    position: relative;
+    margin-left: 150px;
 }
 input, textarea{
     word-break: break-word;
