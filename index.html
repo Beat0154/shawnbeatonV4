@@ -19,8 +19,8 @@
    <nav id="nav">
    <h1 class="maintitle" alt="Shawn Beaton">Shawn Beaton</h1>
     <ul class="navul">
+        <li class="navli"><a href="#websites">Portfolio</a></li>
         <li class="navli"><a href="#portfolio">Programming</a></li>
-        <li class="navli"><a href="#content">Creative</a></li>
         <li class="navli"><a href="#form">Contact</a></li>
     </ul>
 </nav>
@@ -174,21 +174,22 @@
             <label class="formname">Name</label>
             <span id="span1"  class="error">Please enter a Name</span>
         </div>
-        <input id="input1" onkeypress="remove('span1')" class="formnameinput" type="text" name="name" placeholder="Shawn Beaton">
+        <input id="input1" onkeypress="remove('span1')" onchange="remove('span1')" class="formnameinput" type="text" name="name" placeholder="Shawn Beaton">
           <br/>
           
         <div class="labels">  
             <label class="formemail">E-mail</label>
             <span id="span2" class="error">Please enter an E-mail</span>
         </div>
-        <input id="input2" onkeypress="remove('span2')" class="formemailinput" type="text" name="email" placeholder="shawnjbeaton@gmail.com"> 
+        <input id="input2" onkeypress="remove('span2')"
+         onchange="remove('span2')" class="formemailinput" type="text" name="email" placeholder="shawnjbeaton@gmail.com"> 
           <br> 
           
         <div class="labels">
             <label class="formmessage">Message</label>
             <span id="span3"  class="error">Please enter a Message</span>
         </div>
-        <textarea id="input3" onkeypress="remove('span3')" class="formmessageinput" cols="5" class="message" type="text" name="message" placeholder="Hey Shawn you're really cool."></textarea>
+        <textarea id="input3" onkeypress="remove('span3')" onchange="remove('span3')" class="formmessageinput" cols="5" class="message" type="text" name="message" placeholder="Hey Shawn you're really cool."></textarea>
           <br> 
           
         <button value="Send" class="submitbtn" type="submit" value="Submit">Submit</button>
