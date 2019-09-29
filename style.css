@@ -537,3 +537,6 @@ footer{
     background-color:  #66a9ff;
     color: #022f6c;
 }
+.twitter{
+    transform: scale(1.2)
+}
