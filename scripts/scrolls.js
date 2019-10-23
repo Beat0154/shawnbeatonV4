@@ -29,6 +29,12 @@ function showtext(name){
     }
 }
 
+function remBG(name){
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+document.getElementById(name).style.display = "none"; 
+    }else{document.getElementById(name).style.display = "block";}
+}
+
 window.onscroll = function() {
     slide(375, "nav", "navup", "nav");
 //    parallax('top','background', 0, 1);
@@ -45,6 +51,7 @@ window.onscroll = function() {
     parallax('top','puck', 20, -0.15);
     parallax('padding-left','puck',  0, 0.2);
     parallax('width','form',400,0.2);
+    remBG("background");
     if(screen.width > 792){
     parallax('width','span1',500,0.2);
     parallax('width','span2',500,0.2);
